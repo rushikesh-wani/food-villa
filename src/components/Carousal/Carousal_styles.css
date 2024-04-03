@@ -1,0 +1,63 @@
+/* App.css */
+
+.carousel-container {
+  overflow: hidden;
+  width: calc(100% - 80px); /* 80px total margin (40px on both sides) */
+  /* 40px margin on both sides */
+  margin-top: 5rem;
+}
+
+.carousel {
+  display: flex;
+  /* animation: scroll 15s linear infinite; */
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.carousel-item {
+  flex: 0 0 auto;
+  margin-right: 3rem;
+}
+
+.carousel-item > a > img {
+  width: 100%;
+  height: 180px;
+}
+
+.img-title {
+  text-align: center;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% - 10px));
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-container {
+    margin: 0rem;
+    margin-top: 5rem;
+    width: 100%;
+  }
+
+  .carousel {
+    width: 100%;
+  }
+
+  .carousel-item > a > img {
+    height: 8rem;
+  }
+
+  .carousal-title {
+    margin-left: 10px;
+  }
+
+  .carousel-item {
+    margin-right: 1rem;
+  }
+}

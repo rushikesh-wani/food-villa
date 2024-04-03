@@ -1,0 +1,10 @@
+Food Ordering app Swiggy home page API link >>>
+https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.9965401&lng=73.790072&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING
+
+Fetch restaurant Menu list API link >>>>
+
+https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=19.9965401&lng=73.790072&restaurantId=181040&catalog_qa=undefined&submitAction=ENTER
+
+https://www.swiggy.com/mapi/homepage/getCards?lat=19.9965401&lng=73.790072
+
+https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.5203896&lng=73.8567005&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING
